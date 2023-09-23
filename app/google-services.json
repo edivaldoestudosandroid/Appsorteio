@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73765681672",
+    "project_id": "app-sorteio-fec7e",
+    "storage_bucket": "app-sorteio-fec7e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73765681672:android:e8ca1b2fbe9b9a6c1aefbd",
+        "android_client_info": {
+          "package_name": "com.example.appsorteio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA81lK5brZ4nSd4JHlhalYyklW2zL6HQR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -26,7 +26,7 @@
         app:layout_constraintTop_toBottomOf="@+id/include2" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/text_Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
@@ -40,6 +40,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <android.widget.Button
+        android:id="@+id/btn_recuperar_Conta"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="24dp"
@@ -50,7 +51,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/text_Email"
         app:layout_constraintVertical_bias="0.0" />
 
 

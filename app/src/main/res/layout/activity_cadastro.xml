@@ -38,6 +38,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <EditText
+                    android:id="@+id/txt_Nome"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_edit"
@@ -45,25 +46,28 @@
                     android:padding="16dp" />
 
                 <EditText
+                    android:id="@+id/txt_Email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
                     android:background="@drawable/bg_edit"
                     android:hint="E-mail"
-                    android:layout_marginTop="16dp"
                     android:inputType="textEmailAddress"
                     android:padding="16dp" />
 
                 <EditText
+                    android:id="@+id/txt_Telefone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/bg_edit"
                     android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_edit"
                     android:hint="Telefone"
                     android:inputType="text|number"
                     android:padding="16dp" />
 
 
                 <EditText
+                    android:id="@+id/txt_Senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
@@ -73,6 +77,7 @@
                     android:padding="16dp" />
 
                 <android.widget.Button
+                    android:id="@+id/btn_Cadastrar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"

@@ -44,6 +44,7 @@
                 app:layout_constraintTop_toTopOf="parent">
 
                 <EditText
+                    android:id="@+id/txt_Email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_edit"
@@ -53,6 +54,7 @@
 
 
                 <EditText
+                    android:id="@+id/tx_Senha"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
@@ -62,6 +64,7 @@
                     android:padding="16dp" />
 
                 <android.widget.Button
+                    android:id="@+id/btn_Entar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
